@@ -50,7 +50,7 @@ class Cli
         if (empty($newJob))
         {
             fwrite(STDOUT, "Notice: No Job found.\n");
-            return;
+            return false;
         }
         try
         {
