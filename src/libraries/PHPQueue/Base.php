@@ -57,7 +57,7 @@ class Base
             {
                 $class_name = "\\";
             }
-            $class_name .= self::$queue_namespace . "\\" . $queue_name;
+            $class_name .= self::$queue_namespace . "\\" . $queue_name . "Queue";
         }
         return $class_name;
     }
@@ -196,7 +196,7 @@ class Base
             {
                 $class_name = "\\";
             }
-            $class_name .= self::$worker_namespace . "\\" . $worker_name;
+            $class_name .= self::$worker_namespace . "\\" . $worker_name . 'Worker';
         }
         return $class_name;
     }
