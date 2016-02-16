@@ -12,7 +12,7 @@
 		}
 	],
 	"require": {
-		"Respect/Rest": "0.5.*",
+		"Respect/Rest": "0.6.*",
 		"monolog/monolog": "1.2.*"
 	},
 	"require-dev": {
@@ -22,7 +22,6 @@
 		"predis/predis": "v0.8.0",
 		"iron-io/iron_mq": "dev-master",
         "phpunit/phpunit": "4.6.*"
-
 	},
 	"autoload": {
 		"psr-0": {"PHPQueue": "src/libraries/"}
